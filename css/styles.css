@@ -186,12 +186,14 @@ h1 {
   color: #fff;
 }
 
-.button {
+/* .button {
   padding-bottom: 188px;
   display: flex;
   justify-content: center;
-}
+} */
 .button-hero {
+  margin: auto;
+  padding-bottom: 188px;
   display: block;
 
   min-width: 169px;
