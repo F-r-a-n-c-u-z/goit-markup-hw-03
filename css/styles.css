@@ -186,11 +186,6 @@ h1 {
   color: #fff;
 }
 
-/* .button {
-  padding-bottom: 188px;
-  display: flex;
-  justify-content: center;
-} */
 .button-hero {
   margin: auto;
   padding-bottom: 188px;
@@ -222,7 +217,6 @@ h1 {
 
 /* Our Team */
 .our-team {
-  padding-top: 120px;
   margin-bottom: 72px;
 
   color: #2e2f42;
@@ -235,6 +229,7 @@ h1 {
 }
 
 .our-section {
+  padding: 120px 0;
   background-color: #f4f4fd;
   text-align: center;
   text-transform: capitalize;
@@ -291,9 +286,10 @@ h3 {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
-
-.main-text {
+.top {
   padding: 120px 0;
+}
+.main-text {
   display: flex;
   gap: 24px;
   justify-content: center;
