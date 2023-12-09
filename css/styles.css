@@ -1,3 +1,15 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
 body {
   width: 1440px;
   font-family: 'Roboto', sans-serif;
@@ -63,6 +75,7 @@ button {
 }
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .header-logo {
 }
@@ -136,6 +149,7 @@ button {
   text-transform: uppercase;
 }
 .footer {
+  display: inline-block;
   background: #2e2f42;
 }
 .footer-p {
@@ -159,10 +173,11 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
 }
+
 .button-hero {
   border: none;
   border-radius: 4px;
-  display: inline-flex;
+  display: block;
   align-items: center;
   gap: 10px;
 
