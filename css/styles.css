@@ -76,8 +76,7 @@ button {
   display: flex;
   align-items: center;
 }
-.header-logo {
-}
+
 .logo {
   margin-right: 76px;
   display: inline-flex;
@@ -128,8 +127,7 @@ button {
   display: flex;
   gap: 40px;
 }
-.socials-item {
-}
+
 .socials-link {
   font-weight: 400;
   line-height: 1.5em;
@@ -181,8 +179,7 @@ button {
   color: #ffffff;
   background-color: #2e2f42;
 }
-h1 {
-}
+
 .hero {
   margin: auto;
 
@@ -305,7 +302,7 @@ h3 {
 }
 
 .our-team-p {
-  text-align: center;
+  text-align: left;
   width: 264px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -334,12 +331,11 @@ h3 {
 }
 /* li */
 .our-portfolio-item {
+  border-top: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 360px;
-
-  border: 1px solid #e7e9fc;
   background-color: #fff;
 }
 
