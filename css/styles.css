@@ -265,11 +265,11 @@ h3 {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
-.our-team-img {
-  margin-bottom: 32px;
+.name-worker {
+  padding: 32px 0;
 }
 .our-team-h {
+  text-align: center;
   margin-left: 16px;
   margin-bottom: 8px;
   color: #2e2f42;
@@ -280,8 +280,8 @@ h3 {
 }
 
 .our-team-p {
+  text-align: center;
   margin-left: 16px;
-  margin-bottom: 32px;
   width: 264px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -317,8 +317,7 @@ h3 {
   border: 1px solid #e7e9fc;
   background-color: #fff;
 }
-.our-portfolio-img {
-}
+
 .our-portfolio-p {
   line-height: 1.5em;
   letter-spacing: 0.02em;
