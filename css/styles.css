@@ -259,7 +259,7 @@ h3 {
 }
 .our-team-list {
   /* width: calc((100%-24px) / 3); */
-  display: inline-flex;
+  display: flex;
   gap: 24px;
   justify-content: center;
 }
