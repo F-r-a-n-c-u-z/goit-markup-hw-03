@@ -7,7 +7,7 @@
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  clip-path: inset(100%);
   margin: -1px;
 }
 body {
@@ -302,7 +302,7 @@ h3 {
 }
 
 .our-team-p {
-  text-align: left;
+  text-align: center;
   width: 264px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
