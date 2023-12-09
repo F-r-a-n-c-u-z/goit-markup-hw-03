@@ -151,12 +151,23 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.footer-logo {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 .footer {
-  padding-top: 100px;
+  padding: 100px 0;
   background: #2e2f42;
 }
 .footer-p {
-  margin-top: 16px;
   width: 264px;
   color: var(--CLOUD, #f4f4fd);
   line-height: 1.5em;
@@ -268,6 +279,15 @@ h3 {
   padding: 32px 0;
 }
 .name-app {
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+
+  border-top: none;
   padding: 32px 16px;
   margin-bottom: 8px;
   border: 1px solid #e7e9fc;
