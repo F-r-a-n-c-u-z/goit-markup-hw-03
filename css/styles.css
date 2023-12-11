@@ -277,7 +277,6 @@ h3 {
   padding: 32px 0;
 }
 .name-app {
-  border-top: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -285,6 +284,7 @@ h3 {
   padding: 32px 16px;
   margin-bottom: 8px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .our-team-h {
   text-align: center;
